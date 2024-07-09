@@ -1,6 +1,12 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* shared styles */
+*/{
+     background-color: rgb(255, 255, 255);
+     
+}
+
 /* header styles */
 .banner-section{
     background-image: url("../assets/Hero-bg.png");
@@ -12,20 +18,23 @@
     align-items: center;
     
 }
-.banner-image{
+.banner-section .banner-image{
     height: 250px;
     width: 250px;
     border-bottom: 32px;
 }
+/* shared styles */
+.banner-content{
+    margin: 24px 0;
+    padding: 0px;
+    text-align: center;
+}
 
 .banner-content .banner-title{
-    margin: 24px 0px; 
-    padding: 0px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
-    text-align: center;
     border-bottom: 24px;
 
 }
@@ -35,13 +44,10 @@
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
     opacity: 0.7;
-    margin: 24px 0;
-    padding: 0px;
     border-bottom: 32px;
 }
-.banner-content .btn{
+.btn-primary .btn{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
@@ -52,9 +58,59 @@
     margin: 0px 10px;
 }
 
-.banner-content .btn-primary{
+.btn-primary{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 32px 0px;
+}
+
+
+/* section styles */
+.section-video-container{
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: (255, 255, 255)
+}
+
+.section-video-container .section-title{
+    margin: 24px 0px;
+    padding : 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: 24px;
+}
+.section-video-container .section-description{
+    margin: 24px 0px;
+    padding: 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7; 
+    border-bottom: 48px;
+}
+
+.section-video-container .section-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
+    padding: 32px;
+
+}
+
+.section-video-container .section-video iframe{
+    width: 1076px;
+    height: 550px;
+    margin: 10px 0px;
+    border-radius: 16px;
+   
 }
