@@ -1,16 +1,10 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* shared styles */
-*/{
-     background-color: rgb(255, 255, 255);
-     
-}
-
-/* header styles */
+/* main header styles */
 .banner-section{
     background-image: url("../assets/Hero-bg.png");
-    max-width: 100%;
+    width: 100%;
     height: 652px;
     display: flex;
     flex-direction: column;
@@ -23,7 +17,7 @@
     width: 250px;
     border-bottom: 32px;
 }
-/* shared styles */
+
 .banner-content{
     margin: 24px 0;
     padding: 0px;
@@ -64,37 +58,47 @@
     align-items: center;
     margin: 32px 0px;
 }
-
-
-/* section styles */
-.section-video-container{
-    max-width:100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: (255, 255, 255)
-}
-
-.section-video-container .section-title{
-    margin: 24px 0px;
-    padding : 0px;
+/* shared section styles */
+.section-video-container .section-title, .section-container-one .section-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+
+}
+
+.section-video-container .section-description, .section-container-one .section-description, .section-container-two .section-description{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+/* section one  why web development? styles */
+
+/* section two my inspiration styles */
+.section-video-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: (255, 255, 255);
+    margin-top: 140px ;
+}
+
+.section-video-container .section-title{
+    margin: 24px 0px;
+    padding : 0px;
     border-bottom: 24px;
 }
 .section-video-container .section-description{
     margin: 24px 0px;
     padding: 0px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
     text-align: center;
-    opacity: 0.7; 
     border-bottom: 48px;
 }
 
@@ -107,10 +111,89 @@
 
 }
 
-.section-video-container .section-video iframe{
+.section-video iframe{
     width: 1076px;
     height: 550px;
     margin: 10px 0px;
-    border-radius: 16px;
    
+}
+
+/* section three  my current target styles */
+.section-target{
+    width: 1440px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+ .section-container-one{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+  
+}
+
+.section-container-one .section-title{
+    margin: 8px 0px;
+    padding: 0px;
+}
+.section-container-one .section-description{
+    margin: 8px 0px;
+    text-align: center;
+    margin-bottom: 48px ;
+
+}
+
+.section-container-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.image-one, .image-two, .image-three{
+    margin: 0px 24px;
+    padding: 40px;
+    width: 99%;
+    height: 220px;
+
+    
+}
+.section-container-two .section-subtitle {
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 24px;
+}
+.section-container-two .section-description{
+    margin: 8px 0px;
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.image-one{
+    border-bottom: 48px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.image-two{
+    border-bottom: 48px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.image-three{
+    border-bottom: 48px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* shared images styles */
+.image-one a ,.image-two a, .image-three a{
+   
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
 }
