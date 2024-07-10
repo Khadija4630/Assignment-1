@@ -50,6 +50,7 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0px 10px;
+    cursor: pointer;
 }
 
 .btn-primary{
@@ -64,6 +65,8 @@
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
     text-align: center;
 
 }
@@ -74,6 +77,8 @@
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
     opacity: 0.7;
 }
 
@@ -82,18 +87,20 @@
 /* section two my inspiration styles */
 .section-video-container{
     width:100%;
+    height: 777px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     background-color: (255, 255, 255);
-    margin-top: 140px ;
+    margin-top: 100px ;
 }
 
 .section-video-container .section-title{
     margin: 24px 0px;
     padding : 0px;
     border-bottom: 24px;
+
 }
 .section-video-container .section-description{
     margin: 24px 0px;
@@ -120,10 +127,10 @@
 
 /* section three  my current target styles */
 .section-target{
-    width: 1440px;
+    width: 1140px;
     height: 463px;
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
  .section-container-one{
@@ -152,9 +159,9 @@
     
 }
 .image-one, .image-two, .image-three{
-    margin: 0px 24px;
+    margin: 0px 16px;
     padding: 40px;
-    width: 99%;
+    width: 100%;
     height: 220px;
 
     
@@ -196,4 +203,127 @@
     font-weight: 700;
     text-align: left;
     text-decoration-line: underline;
+}
+
+/* footer styles */
+.footer-section{
+    width: 1140px;
+    height: 314px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background-image:url("../assets/handshake.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 0px;
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+.footer-section .footer-content{
+    width: 1044px;
+    height: 186px;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.footer-content  .footer-box{
+    width: 730px;
+    height: 104px;
+    margin: 24px 0px;
+    /* border: 2px solid red; */
+
+}
+.footer-box .footer-title{
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    gap: 24px;
+}
+
+.footer-box .footer-description{
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    gap: 30px;
+
+}
+
+/* .btn-secondary{
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px; */
+    /* width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15); */
+    /* border-radius: 8px;
+    background: rgb(255, 255, 255); }*/
+
+.btn-secondary .footer-textarea{
+    /* width: 100%;
+    margin: 0 auto; */
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 10px;
+}
+/* .btn-secondary .footer-btn-2{
+    margin: 0px 16px;
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+} */
+
+ .btn-secondary .btn-2{
+    width:120px ;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 16px;
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
