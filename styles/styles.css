@@ -84,6 +84,157 @@
 
 /* section one  why web development? styles */
 
+.section-one-container  .section-content-one{
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+    width: 80%;
+    margin: 0 auto;
+    height:1256px;
+    padding: 80px 97px 80px 97px;
+ 
+}
+
+.section-content-one .web-dev-container{
+    width: 946px;
+     height: 1296px;
+    width: 90%;
+    margin: 0 auto;
+    height: 1296px;
+    margin: 0px 10px;
+}
+
+ .web-dev-container .web-dev{
+    width: 852px;
+    height: 115px;
+    margin: 48px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.web-dev-two-container .web-dev-1, .web-dev-2, .web-dev-3{
+    width:850px;
+    height: 280px;
+    margin: 32px 0px;
+}
+
+.web-dev-two-container .web-dev-1 .web-dev-1-container , .web-dev-2-container, .web-dev-3-container{
+    width: 830px;
+    height: 268px;
+    margin: 0px 10px;
+    display: flex; /* use flexbox layout */
+
+}
+
+.web-dev-two-container .web-dev-1 .web-dev-1-container .web-dev-1-content, .web-dev-2-content, .web-dev-3-content{
+    width: 477px;
+    height:220px;
+    margin: 0px 10px;
+    flex-basis: 60%;
+}
+
+.web-dev-two-container .web-dev-1 .web-dev-1-container .web-dev-1-content .web-dev-1-section ,.web-dev-2-section, .web-dev-3-section{
+    width: 477px;
+   height: 150px;
+   margin: 32px 0px;
+}
+
+/* Shared web dev styles */
+.wev-dev-container .web-dev.section-title {
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.web-dev .section-description{
+
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+ .web-dev-1-content .section-title,.web-dev-2 .section-title,.web-dev-3 .section-title{
+    margin: 16px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 390px;
+    height: 72px;
+ }
+
+.web-dev-1-content .section-description ,.web-dev-2-content .section-description, .web-dev-3-content .section-description{
+    width: 468px;
+    height: 52px;
+    margin: 16px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    border-bottom: 40px;
+}
+.web-dev-1-container .link-1-container, .web-dev-2-container .link-2-container ,.web-dev-3-container .link-3-container{
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px; 
+    width:140px;
+    height:48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    
+}
+
+.link-1-container .link-1,.link-2-container .link-2 ,.link-3-container .link-3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+   letter-spacing: 0%;
+   text-align: center;
+   text-decoration: none;
+
+}
+
+/* .web-dev-1-container .web-dev-1-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+  } */
+  
+  /* .web-dev-1-image-inner {
+    
+  
+  } */
+
+
+
+
+
 /* section two my inspiration styles */
 .section-video-container{
     width:100%;
@@ -131,6 +282,7 @@
     height: 463px;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
  .section-container-one{
@@ -220,7 +372,7 @@
     justify-content: center;
     align-items: center;
 }
-.footer-section {
+.footer-section ,.btn-secondary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,26 +381,24 @@
     width: 1140px;
     height: 314px;
     margin: 0 auto;
-    /* border: 2px solid red; */
 }
 .footer-section .footer-content{
-    width: 1044px;
-    height: 186px;
+    width: 1140px;
+    height: 314px;
     margin: 32px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
 }
 .footer-content  .footer-box{
-    width: 730px;
-    height: 104px;
+    width: 1044px;
+    height: 186px;
     margin: 24px 0px;
-    /* border: 2px solid red; */
 
 }
 .footer-box .footer-title{
+
     margin: 16px 0px;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
@@ -257,7 +407,6 @@
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
-    gap: 24px;
 }
 
 .footer-box .footer-description{
@@ -270,23 +419,13 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    gap: 30px;
 
 }
 
-/* .btn-secondary{
-    padding: 19px 20px 19px 20px;
-    margin: 0px 16px; */
-    /* width: 548px;
-    height: 57px;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15); */
-    /* border-radius: 8px;
-    background: rgb(255, 255, 255); }*/
-
 .btn-secondary .footer-textarea{
-    /* width: 100%;
-    margin: 0 auto; */
+
+    width: 100%;
+    margin: 0 auto; 
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 6px;
@@ -301,18 +440,9 @@
     padding: 19px 20px 19px 20px;
     margin: 0px 10px;
 }
-/* .btn-secondary .footer-btn-2{
-    margin: 0px 16px;
-    padding: 17px 20px 17px 20px;
-    width: 120px;
-    height: 58px;
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
-} */
 
  .btn-secondary .btn-2{
-    width:120px ;
-    height: 58px;
+     margin: 0px 10px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -320,10 +450,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    margin: 0px 16px;
     padding: 17px 20px 17px 20px;
-    width: 120px;
-    height: 58px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
